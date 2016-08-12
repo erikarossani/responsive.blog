@@ -115,9 +115,10 @@ header label{
 	margin-top: 10px;
 	justify-content: center;
 }
-.col-xs-12{
+.text{
 	background:rgb(28,24,33);
-    margin-top: 20px;
+    margin-top: -5px;
+    padding-bottom: 10px;
     text-align: center;
 }
 /*section class=s3*/
@@ -216,8 +217,8 @@ p{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	margin-left: 40px;
-	margin-right: 40px;
+	width: 86%;
+	margin-left: 122px;
 	margin-top: 80px;
     }
     h1{
@@ -226,10 +227,12 @@ p{
     .container2 .col-sm-11{
     	display: block;
     	margin-left: 40px;
+    	margin-top: 30px;
     }
     #col4{
     	position: relative;
     	left: 20px;
+    	padding: 20px;
     }
 }
 @media (min-width: 300px) {

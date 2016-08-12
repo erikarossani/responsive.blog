@@ -38,6 +38,7 @@ a{
 	text-decoration: none;
 	padding: 2px;
 	cursor: pointer;
+	padding-bottom: 30px;
 }
 a:hover{
 	color: rgb(247,186,106);
@@ -135,7 +136,7 @@ iframe{
      width: 450px;
      margin: auto;
      background: rgb(28,24,33);
-     padding: 15px 15px;
+     padding: 10px 10px;
      box-sizing: border-box;
      margin-left: -10px;
      margin-top: -70px;
@@ -157,6 +158,7 @@ iframe{
 #col4{
    background:rgb(28,24,33);
    margin-top: 20px;
+   text-align: center;
 }
 h4{
    color: rgb(247,186,106);
@@ -196,14 +198,43 @@ p{
     .container{
     	width: 1200px;
     }
+    .container-fluid{
+    	width: 1200px;
+    }
     .fondo .container{
-    	width: 100%;
-        padding: 40px;
+    	width: 90%;
+        padding: 20px;
+    }
+    .logo{
+     float: left;
+     width: 30vh;
+     height: 8vh;
+     margin-top: -3px;
+    }
+    .fondo{
+	background-image: url("../image/header-image.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 80px;
+    }
+    h1{
+    	font-size: 50px;
+    }
+    .container2 .col-sm-11{
+    	display: block;
+    	margin-left: 40px;
+    }
+    #col4{
+    	position: relative;
+    	left: 20px;
+    }
+}
+@media (min-width: 300px) {
+    .hidden-xs{
+    	display: none;
     }
 
-}
-@media (min-width: 480px){
-	.col-sm-11{
-		display: none;
-	}
 }
